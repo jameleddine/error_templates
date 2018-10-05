@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    text-align: center
+}
+.header{
+    height: 100px;
+    position: absolute;
+}
+
+.header img{
+    height: inherit;
+}
+
+.msg500_1{
+    background: #eee;
+}
+.msg500_2{
+    background: #e9e9e9;
+}
+.msg500_3{
+    background: #beeb9f;
+}
+@keyframes topFadeOut {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+    75% {
+      position: absolute;
+      top: 25%;
+      opacity: 0.8;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+  
+.first-text {
+    font-size: 56px;
+    font-family: cursive;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    left: 45%;
+    animation-name: topFadeOut;
+    animation-duration: 15s;
+    color: #0d0d0d;
+}
